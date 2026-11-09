@@ -1,0 +1,12 @@
+suma = 0
+
+for i in range(3):
+    nota  = float(input("Ingrese una nota: "))
+    suma += nota
+promedio = suma / 3
+print("El promedio es: ", promedio)
+
+if promedio >= 3:
+    print("Aprobaste")
+else:
+    print("Reprobaste")
